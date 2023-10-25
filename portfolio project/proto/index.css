@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../resources/1.png");
+    background-size: cover, contain;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+#portfolioCover {
+    height: 900px;
+    width: 1600px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+#introduction {
+    position: absolute;
+    height: 900px;
+    width: 1600px;
+    left: 170px;
+    top: 30px;
+}
+
+a {
+    display: block;
+    width: 225px;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: #e3f08e;
+    text-align: center;
+    font-size: 36px;
+    color: #0e0e0e;
+    text-decoration: none;
+    position: absolute;
+    top: 625px;
+    left: 355px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+}
+
+a:hover {
+    background-color: #65467f;
+    color: #e3f08e;
+}
